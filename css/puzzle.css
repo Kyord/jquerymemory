@@ -1,0 +1,41 @@
+#game {
+	width: 384px;
+    margin: 0;
+    padding: 0;
+
+    cursor: move;
+    list-style-type: none;
+
+    display: none;
+    -webkit-flex-flow: row wrap;
+    align-items: center;    
+}
+
+#game li {
+	width: 95px;
+	height: 95px;
+	margin: 0.5px;
+}
+
+main {
+	width: 100%;
+	height: 800px;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+button {
+	display: none;
+	width: 150px;
+	height: 60px;
+	margin-top: 20px;
+
+	font-size: 24px;
+}
+
+h1 {
+	display: none;
+}
